@@ -307,7 +307,6 @@ class _MyHomePageState extends State<MyHomePage> {
                           child: GestureDetector(
                             onDoubleTap: () {
                               setState(() {
-                                // dragWidgetPosition = const Offset(0, 0);
                                 isDragAbleItemDropped = !isDragAbleItemDropped;
                               });
                             },
